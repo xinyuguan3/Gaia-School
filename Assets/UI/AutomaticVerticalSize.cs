@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+[ExecuteInEditMode]
 public class AutomaticVerticalSize : MonoBehaviour
 {
     public float childHeight = 35f;
@@ -10,12 +10,6 @@ public class AutomaticVerticalSize : MonoBehaviour
     void Start()
     {
         AdjustSize();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void AdjustSize()
